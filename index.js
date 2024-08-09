@@ -33,18 +33,18 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1265825059692609587')
+    .setApplicationId('847900894586863616')
     .setType('PLAYING')
-    .setURL('') 
-    .setState('')
+    .setURL(' ') 
+    .setState(' ')
     .setName('google chrome')
-    .setDetails(``)
+    .setDetails(` `)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('') 
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage(' ') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText(' ') 
+    .setAssetsSmallImage(' ') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Small Text') 
-    .addButton('Google', 'https://google.com');
+    .addButton(' ');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
